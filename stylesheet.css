@@ -1,0 +1,107 @@
+nav#header ul li {
+	display: inline;
+}
+
+nav#header {
+	text-align: right;
+	padding: 13px;
+	font-size: 13px;
+}
+
+nav#header ul li a:link,
+nav#header ul li a:visited,
+footer nav ul li a:link,
+footer nav ul li a:visited {
+	text-decoration: none;
+	color: #555;
+	padding: 5px;
+}
+
+nav#header ul li a:hover,
+footer nav ul li a:hover {
+	text-decoration: underline;
+}
+
+a {
+	text-decoration: none;
+}
+
+a#language:hover {
+	text-decoration: underline;
+}
+
+#container {
+	height: 150px;
+	width: 600px;
+	margin: 150px auto;
+	text-align: center;
+}
+
+footer {
+	background: #eee;
+	border: solid 1px #e4e4e4;
+	padding: 10px;
+	bottom: 0;
+	position: fixed;
+	width: 99%;
+}
+
+footer nav ul li {
+	display: inline;
+}
+
+footer nav ul {
+	float: left;
+}
+
+footer nav ul#right { 
+	float: right;
+} 																																																																																																																																																																																																																																																																																																				
+
+body {
+	font-family: Arial, Sans-serif;
+	font-size: 13px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+small {
+	display: block;
+	margin-top: 10px;
+	font-size: 12px;
+	font-family: arial, sans-serif;
+}
+
+input[type="text"] {
+	width: 80%;
+	padding: 7px;
+	border: solid 1px #ccc;
+	font-size: 16px;
+	font-family: arial, sans-serif;
+}
+
+input[type="text"]:hover {
+	border-color: #aaa;
+}
+
+input[type="submit"] {
+	background-color: #f2f2f2;
+	border-radius: 2px;
+	font-size: 13px;
+	font-family: arial, sans-serif;
+	font-weight: bold;
+	color: #757575;
+	border: none;
+	padding: 16px;
+	margin: 11px 4px;
+}
+
+#Profpic {
+	height: 30px;
+	width: 30px;
+	border-radius: 100%;
+}
+
